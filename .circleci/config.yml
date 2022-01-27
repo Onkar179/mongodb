@@ -11,5 +11,5 @@ workflows:
         - docker/publish:
             docker-password: DOCKER_PASS 
             docker-username: DOCKER_USERNAME 
-            image: onkar179/mongodb 
+            image: onkar17/mongodb 
             tag: v1 

@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Onkar179_mongodb_docker_1716988455486-pr-trigger-input-set
+  identifier: Build_Onkar179_mongodb_docker_1716988455486prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: test_project
+  pipeline:
+    identifier: Build_Onkar179_mongodb_docker_1716988455486
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
